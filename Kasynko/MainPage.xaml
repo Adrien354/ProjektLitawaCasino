@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kasynko.MainPage"
+             BackgroundColor="DarkGreen">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Simple Casino" 
+               FontSize="30" 
+               HorizontalOptions="Center" 
+               TextColor="Gold" />
+
+        <Grid ColumnSpacing="20" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Label x:Name="Slot1" Text="🍒" FontSize="50" Grid.Column="0" HorizontalOptions="Center" />
+            <Label x:Name="Slot2" Text="🍋" FontSize="50" Grid.Column="1" HorizontalOptions="Center" />
+            <Label x:Name="Slot3" Text="🍇" FontSize="50" Grid.Column="2" HorizontalOptions="Center" />
+        </Grid>
+
+        <Button Text="Spin" 
+                FontSize="20" 
+                TextColor="White" 
+                BackgroundColor="Red" 
+                CornerRadius="20"
+                HorizontalOptions="Center"
+                Clicked="SpinButton_Clicked" />
+
+        <Label x:Name="ResultLabel" 
+               Text="Good Luck!" 
+               FontSize="18" 
+               TextColor="White" 
+               HorizontalOptions="Center"
+               Margin="10" />
+
+        <Button Text="Play Roulette" 
+        FontSize="20" 
+        TextColor="White" 
+        BackgroundColor="Black" 
+        CornerRadius="20"
+        HorizontalOptions="Center"
+        Clicked="RouletteButton_Clicked" />
+    </StackLayout>
+
+</ContentPage>

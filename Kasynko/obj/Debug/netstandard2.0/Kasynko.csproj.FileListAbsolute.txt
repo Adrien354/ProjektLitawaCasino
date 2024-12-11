@@ -1,0 +1,17 @@
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\bin\Debug\netstandard2.0\Kasynko.deps.json
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\bin\Debug\netstandard2.0\Kasynko.dll
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\bin\Debug\netstandard2.0\ref\Kasynko.dll
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\bin\Debug\netstandard2.0\Kasynko.pdb
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.csproj.AssemblyReference.cache
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.AssemblyInfoInputs.cache
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.AssemblyInfo.cs
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.csproj.CoreCompileInputs.cache
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.dll
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\refint\Kasynko.dll
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Kasynko.pdb
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\RoulettePage.xaml.g.cs
+D:\Projects\AplikacjaCasino\Kasynko\Kasynko\obj\Debug\netstandard2.0\Page1.xaml.g.cs

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "HZTbftRZlw8=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\AplikacjaCasino\\Kasynko\\Kasynko.iOS\\Kasynko.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adrian\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Adrian\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Adrian\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

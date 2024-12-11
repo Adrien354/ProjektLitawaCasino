@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kasynko.Page1"
+             BackgroundColor="DarkRed">
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Center">
+            <Label Text="Roulette Game" 
+               FontSize="30" 
+               TextColor="Gold" 
+               HorizontalOptions="Center" />
+
+            <Label Text="Place your bet (1-36), Red, Black or Green:" 
+               FontSize="18" 
+               TextColor="White" />
+
+            <Entry x:Name="BetEntry" 
+               Placeholder="Enter a number" 
+               Keyboard="Numeric" 
+               FontSize="18"
+               TextColor="Black"
+               BackgroundColor="White" />
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                <Button Text="Red" BackgroundColor="Red" TextColor="White" Clicked="RedBet_Clicked"/>
+                <Button Text="Black" BackgroundColor="Black" TextColor="White" Clicked="BlackBet_Clicked"/>
+                <Button Text="Green" BackgroundColor="Green" TextColor="White" Clicked="GreenBet_Clicked"/>
+            </StackLayout>
+
+            <Label Text="Selected Color: None" x:Name="ColorLabel" FontSize="18" TextColor="White" HorizontalOptions="Center" Margin="20" />
+
+            <Grid WidthRequest="300" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="Center">
+                <!-- Define 1 row and 1 column -->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Roulette Wheel (Image) -->
+                <Image x:Name="Wheel" 
+                   Source="roulette_wheel.png" 
+                   Aspect="AspectFill" 
+                   Grid.Row="0" 
+                   Grid.Column="0" 
+                   WidthRequest="300" 
+                   HeightRequest="300"/>
+
+                <!-- Ball (BoxView) -->
+                <BoxView x:Name="Ball" 
+                     WidthRequest="12" 
+                     HeightRequest="12" 
+                     BackgroundColor="White" 
+                     CornerRadius="6" 
+                     Grid.Row="0" 
+                     Grid.Column="0"
+                     HorizontalOptions="Center" 
+                     VerticalOptions="Center"
+                         TranslationX="75"
+                         TranslationY="0"/>
+            </Grid>
+
+            <Button Text="Spin Roulette" 
+                FontSize="20" 
+                TextColor="White" 
+                BackgroundColor="Black" 
+                CornerRadius="20" 
+                Clicked="SpinButton_Clicked" />
+
+            <Label x:Name="ResultLabel" 
+               FontSize="18" 
+               TextColor="White" 
+               HorizontalOptions="Center"
+               Margin="20" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
